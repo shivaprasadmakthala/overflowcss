@@ -1,0 +1,100 @@
+/* top navigation bar */
+header{
+    width: auto;
+    background-color:darkgreen;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left:30px;
+}
+header li{
+    display: inline-block;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+header li a:hover{
+    background-color: black;
+    color:yellow;
+}
+
+/* CSS for select element */
+header select{
+    float: right;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* CSS for dropdown menu  */
+#btn1{
+    background-color: lightskyblue;
+    color: black;
+    padding: 16px;
+    font-size:16px;
+    border: none;
+    cursor: pointer;
+    border-radius:10%;
+}
+
+#dropdown_menu:hover #btn1{
+    background-color:black;
+    color: white;
+}
+#dropdown_menu{
+    position: relative;
+    display: inline-block;
+}
+#menu_content{
+    display: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    position: absolute;
+    width: 160px;
+    background-color:wheat;
+}
+#menu_content a{
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10%;
+}
+#menu_content a:hover{
+    background-color:black;
+    color: whitesmoke;
+}
+#dropdown_menu:hover #menu_content{
+    display: block;
+}
+
+/* left nav bar */
+body{
+    padding:0;
+    margin:0;
+}
+
+#left_nav_bar{
+    display: inline-block;
+}
+#left_nav_bar li a{
+    color:yellow;
+    text-decoration: none;
+}
+
+#left_nav_bar li:hover{
+    background-color:black;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#left_nav_bar li{
+    background-color: darkseagreen;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
